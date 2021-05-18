@@ -42,6 +42,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UIViewTestGeneratorTest.cs">
+      <DependentUpon>UIViewTestGeneratorTest.tt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="UIViewTestGenerator.cs">
+      <DependentUpon>UIViewTestGenerator.tt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
     <Compile Include="UIViewGenerator.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -57,6 +67,14 @@
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="UIViewTestGeneratorTest.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>UIViewTestGeneratorTest.cs</LastGenOutput>
+    </Content>
+    <Content Include="UIViewTestGenerator.tt">
+      <Generator>TextTemplatingFilePreprocessor</Generator>
+      <LastGenOutput>UIViewTestGenerator.cs</LastGenOutput>
+    </Content>
     <Content Include="UIViewGenerator.tt">
       <Generator>TextTemplatingFilePreprocessor</Generator>
       <LastGenOutput>UIViewGenerator.cs</LastGenOutput>
