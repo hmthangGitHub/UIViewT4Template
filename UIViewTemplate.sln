@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UIViewT4Template", "..\UIViewT4Template\UIViewT4Template.csproj", "{EED253DE-2407-4E93-892F-6F6348D961F7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UIViewT4Template", "UIViewT4Template\UIViewT4Template.csproj", "{6D5079C8-6EE7-46F0-95AA-790413CC5A39}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{EED253DE-2407-4E93-892F-6F6348D961F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EED253DE-2407-4E93-892F-6F6348D961F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EED253DE-2407-4E93-892F-6F6348D961F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EED253DE-2407-4E93-892F-6F6348D961F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D5079C8-6EE7-46F0-95AA-790413CC5A39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D5079C8-6EE7-46F0-95AA-790413CC5A39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D5079C8-6EE7-46F0-95AA-790413CC5A39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D5079C8-6EE7-46F0-95AA-790413CC5A39}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
