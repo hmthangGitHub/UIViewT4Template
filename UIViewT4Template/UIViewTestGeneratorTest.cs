@@ -1,11 +1,11 @@
 ﻿
-///
-/// auto-generated please do not modified
-///
+/////
+///// auto-generated please do not modified
+/////
 
-using System;
-using UnityEngine;
+//using System;
+//using UnityEngine;
 
-public partial class UIDressingRoomTest : UIComponent.UIViewTest<UIDressingRoom.Entity>
-{
-}
+//public partial class UIDressingRoomTest : UIComponent.UIViewTest<UIDressingRoom.Entity>
+//{
+//}
